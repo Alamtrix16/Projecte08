@@ -12,8 +12,12 @@ table{
 }
 
 td{
-  width: 750px;
+    width: 750px;
     border:1pt solid black;
     text-align: center;
     padding-bottom: 60%;
+}
+
+.primera.img{
+    size: 50%;
 }
