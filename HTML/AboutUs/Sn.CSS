@@ -1,12 +1,19 @@
 
 table{
     border-collapse:collapse;
-    width:
+    margin-top: 190px;
+    margin-left: 5pt;
+    margin-right: 5px;
+    
 }
 
 .Frs{
+    
 }
 
 td{
+  width: 750px;
     border:1pt solid black;
+    text-align: center;
+    padding-bottom: 60%;
 }
