@@ -29,33 +29,52 @@ body{
     vertical-align: middle;
 }
 
-
+table{
+    border: solid black;
+    text-align: center;
+}
 
 .table1{
-    margin: auto;
-    padding-top: 15%;
+    display: block;
+    text-align: center;
+
    
 }
 
-.max{
+tr{
+    padding: 13%;
     text-align: center;
-    background-color: blue;
-}
 
+}
 .Tronco{
 
+
 }
 
-.titles{
+.subtitles{
     vertical-align: top;
-    width: 700px;
     text-align: center;
-    text-indent: -21%;
     font-size: 200%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: gray;
 }
 
-.primera.img{
-    width: 700px;
+
+
+
+
+.titles{
+    text-align: right;
+    padding-bottom: 50pt;
+    
 }
+
+.segunda.img{
+
+
+}
+
+.primera.img{
+
+}
+
