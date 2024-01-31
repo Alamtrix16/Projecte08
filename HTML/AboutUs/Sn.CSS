@@ -3,32 +3,46 @@ body{
     background-color: #d6c0a8;
 }
 
-.header{
-    background-color: rgb(189, 154, 115);
-    width: 100%;
-    border-collapse: collapse;
-    height: 70px;
-    color: rgb(49, 48, 48);
-    font-size: 14pt;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    position: fixed;
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #bd9a73;
+    color: white;
 }
 
-.header img{
+header img {
+    height: 50px;
+    margin-right: auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: rgb(58, 55, 55);
+    text-decoration: none;
+    padding: 0 80px;
+    font-size: 16pt;
+    font-family:'Monstserrat', sans-serif;
+}
+
+nav ul li img {
     width: 40px;
+    height: 40px;
+    margin-right: auto;
 }
-
-.header .Index,.About,.Contact{
-    /* border: 1px solid;*/
-    width: 400px;
-    text-align: center;
-}
-
-.header .logo{
-    text-align:left;
-    vertical-align: middle;
-}
-
 table{
     border: solid black;
     text-align: center;
